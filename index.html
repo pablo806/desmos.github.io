@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nom du Jeu - Présentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo du jeu">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#features">Caractéristiques</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Bienvenue dans <span>Nom du Jeu</span></h1>
+        <p>Plongez dans une aventure unique et immersive créée par des développeurs indépendants.</p>
+        <a href="#about" class="cta-button">En savoir plus</a>
+    </section>
+
+    <section id="about">
+        <h2>À propos du jeu</h2>
+        <p>
+            "Nom du Jeu" est un jeu indépendant qui mélange action, exploration et narration. 
+            Découvrez un monde riche en détails et une histoire captivante.
+        </p>
+        <img src="screenshot.png" alt="Capture d'écran du jeu">
+    </section>
+
+    <section id="features">
+        <h2>Caractéristiques principales</h2>
+        <ul>
+            <li>✔️ Monde ouvert avec des paysages détaillés.</li>
+            <li>✔️ Gameplay innovant et accessible.</li>
+            <li>✔️ Bande-son originale composée pour le jeu.</li>
+            <li>✔️ Personnages attachants et intrigants.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Pour toute question ou partenariat, contactez-nous :</p>
+        <form action="mailto:votreemail@example.com" method="post" enctype="text/plain">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nom du Jeu. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
