@@ -64,7 +64,7 @@ header nav ul li a {
 section {
     padding: 2rem;
     background: #fff;
-    margin: 1rem 0;
+    margin: 1em 0;
     border-radius: 200px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -72,7 +72,7 @@ section {
 section h2 {
     text-align: center;
     color: #333;
-    margin-bottom: 1rem;
+    margin: 1em;
 }
 
 section#features ul {
@@ -90,5 +90,5 @@ footer {
     padding: 1rem;
     background: #222;
     color: #fff;
-    margin-top: 2rem;
+    margin: 2em;
 }
