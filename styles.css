@@ -1,7 +1,7 @@
 /* Réinitialisation de base */
 body, h1, h2, p, ul, li, a, img {
     margin: 0;
-    padding: 0;
+    padding: 0 1rem;
     box-sizing: border-box;
 }
 
@@ -64,7 +64,7 @@ header nav ul li a {
 section {
     padding: 2rem;
     background: #fff;
-    margin: 1em 0;
+    margin: 1rem auto;
     border-radius: 200px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -84,6 +84,12 @@ section#features ul {
 section#features li {
     padding: 0.5rem 0;
 }
+
+@media (max-width: 768px) {
+    section {
+        padding: 1.5rem;
+    }
+
 
 footer {
     text-align: center;
