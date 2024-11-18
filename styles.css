@@ -52,7 +52,7 @@ header nav ul li a {
 
 .cta-button {
     display: inline-block;
-    margin-top: 1rem;
+    margin: 1em;
     padding: 0.8rem 1.5rem;
     background: #ff5722;
     color: #fff;
