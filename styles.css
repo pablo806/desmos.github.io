@@ -2,8 +2,7 @@
 body, h1, h2, p, ul, li, a, img {
     margin: 0;
     padding: 0 1rem;
-    box-sizing: content-box;
-    width: 100%;
+    box-sizing: border_box;
 }
 
 /* Style général */
@@ -97,5 +96,5 @@ footer {
     padding: 1rem;
     background: #222;
     color: #fff;
-    margin: 2em;
+    margin: 0;
 }
