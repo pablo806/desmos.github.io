@@ -28,6 +28,36 @@ header p {
     font-size: 1.2em;
     margin: 0;
 }
+/* Navbar */
+.navbar {
+    background: #333;
+    padding: 10px;
+    text-align: right;
+}
+
+.navbar .dropdown {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.navbar .dropdown li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar .dropdown li a {
+    text-decoration: none;
+    color: #d4af37;
+    font-size: 1em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar .dropdown li a:hover {
+    color: #bc8f8f;
+}
 
 /* Contenu principal */
 main {
